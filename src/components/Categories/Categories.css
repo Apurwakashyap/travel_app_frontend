@@ -1,0 +1,91 @@
+.categories {
+  padding: 6rem 3rem 1rem 5rem;
+  color: var(--text-color-primary);
+  background-color: var(--background-color);
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+}
+
+.gap-large {
+  gap: 2rem;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.react-multi-carousel-list {
+  gap: 1.5rem;
+}
+
+.react-multi-carousel-item {
+  width: max-content !important;
+}
+
+.category-color {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.item {
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 8px 10px;
+  border-radius: 2rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--text-color-primary);
+}
+
+.button.btn-filter {
+  padding: 8px 1rem;
+  border-radius: 2rem;
+  border: 1px solid var(--accent-color);
+  align-self: flex-start;
+}
+
+.btn-filter:hover,
+.item:hover {
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination dots */
+.react-multi-carousel-dot button {
+  background-color: #ccc; /* Default dot color */
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: var(--primary-color); /* Active dot color */
+}
+
+/* Arrows */
+.react-multi-carousel-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  background-color: var(--background-color);
+  color: var(--text-color-primary);
+  border: 1px solid var(--accent-color);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.react-multi-carousel-arrow:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.react-multi-carousel-arrow--disabled {
+  visibility: hidden;
+}
